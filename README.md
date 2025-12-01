@@ -90,3 +90,28 @@ The SQL query:
 - Limits to 10 names per department
 - Orders results by department ID in descending order
 
+## Download JAR File
+
+### Pre-built JAR (Recommended)
+Download the ready-to-run JAR file:
+
+**Raw GitHub Link:**
+```
+https://raw.githubusercontent.com/ludwinsubbaiahhh/sql-solver/main/releases/webhook-sql-solver-1.0.0.jar
+```
+
+**Direct Download:**
+```
+https://github.com/ludwinsubbaiahhh/sql-solver/raw/main/releases/webhook-sql-solver-1.0.0.jar
+```
+
+### Run the JAR
+```bash
+java -jar webhook-sql-solver-1.0.0.jar
+```
+
+The application will automatically:
+1. Generate a webhook on startup
+2. Build and execute the SQL query
+3. Submit the solution via the webhook with JWT authentication
+

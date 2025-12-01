@@ -3,6 +3,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Allow JAR files in releases folder for submission
+releases/*.jar
+!releases/.gitkeep
+
 ### STS ###
 .apt_generated
 .classpath
