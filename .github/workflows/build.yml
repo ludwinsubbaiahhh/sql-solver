@@ -43,5 +43,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add releases/webhook-sql-solver-1.0.0.jar
         git diff --staged --quiet || git commit -m "Add built JAR file [skip ci]"
-        git push
+        git push origin HEAD:main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
