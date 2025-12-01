@@ -4,7 +4,8 @@ target/
 !**/src/test/**/target/
 
 # Allow JAR files in releases folder for submission
-releases/*.jar
+*.jar
+!releases/*.jar
 !releases/.gitkeep
 
 ### STS ###
